@@ -5,11 +5,28 @@ INTERN ID: THI-0125B74
 DURATION: 15th January to 15th February
 
 OVE VIEW OF THIS PROJECT:
-This project is a simple calculator application created using Python. It allows users to perform basic arithmetic operations like addition(+), subtraction(-), multiplication(*), and division(/).
-**FEATURES:
-   * User Input: Prompts the user to input two numbers and choose an arithmetic operation (+, -, *, /).
-   * Error Handling: Validates user inputs to ensure they are correct (e.g., valid numbers and operations) and handles divisions by zero.
-   * Continuous Use: After performing a calculation, the user is asked if they would like to perform another calculation.
+TASK: Contact Book Application
+* Contact Addition:
+Allows users to add new contacts by entering the name and phone number.
+Stores contacts in a dictionary for easy lookup.
+* Contact Search:
+Enables users to search for existing contacts by name.
+Provides feedback if the contact is not found.
+* Contact Deletion:
+Allows users to delete existing contacts by name.
+Confirms whether the contact was deleted successfully or if it was not found.
+* User-Friendly Interface:
+Offers a simple command-line interface for users to interact with the contact management system.
+Supports actions like add, search, delete, and quit.
+* Continuous Loop:
+Keeps the program running in a loop until the user chooses to quit.
+Ensures that users can perform multiple actions without restarting the program.
+FEATURES:
+ * Add new contacts with ease
+ * Search for existing contacts by name
+ * Delete contacts and receive confirmation
+ * User-friendly command-line interface
+ * Continuous loop for seamless user interaction
 
 Future Enhancements:
    * Save contacts to a file for persistence.
