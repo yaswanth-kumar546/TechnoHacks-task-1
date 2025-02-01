@@ -1,0 +1,13 @@
+contacts = {}
+
+while True:
+    action = input("Choose: add, search, delete, quit: ").lower()
+    if action == "quit":
+        break
+    name = input("Enter name: ")
+    if action == "add":
+        contacts[name] = input("Enter phone: ")
+    elif action == "search":
+        print(f"{name}: {contacts.get(name, 'Not found')}")
+    elif action == "delete":
+        print(f"Deleted: {contacts.pop(name, 'Not found')}")
